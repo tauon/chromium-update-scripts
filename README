@@ -1,0 +1,6 @@
+# chromium_update.sh v1
+# A script to download and unzip the latest chromium nightly (OSX).
+
+# chromium_install.sh v1
+# A script to install a downloaded chromium nightly build
+# to Applications directory (OSX).
