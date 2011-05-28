@@ -101,3 +101,4 @@ else
     log "Non-zero status. Fetching latest build."
     fetch_latest_build_number
     fetch_latest_build
+fi

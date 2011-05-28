@@ -117,3 +117,4 @@ if [[ ${CURRENT} -gt ${INSTALLED} ]];then
 else
     log "No need to install. Quitting."
     exit 0
+fi
