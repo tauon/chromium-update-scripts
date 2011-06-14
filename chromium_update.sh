@@ -58,14 +58,14 @@ function remove_local_archive() {
 
 function fetch_latest_build_number() {
     log "Fetching latest build number..."
-    curl -L http://build.chromium.org/f/chromium/snapshots/chromium-rel-mac/LATEST -o ${CHROME_TEMP}/LATEST
+    curl -L http://build.chromium.org/f/chromium/snapshots/Mac/LATEST -o ${CHROME_TEMP}/LATEST
     LATEST=`cat ${CHROME_TEMP}/LATEST`
     log "Latest is: ${LATEST}"
 }
 
 function fetch_latest_build() {
     log "Fetching build: ${LATEST} ..."
-    url="http://build.chromium.org/f/chromium/snapshots/chromium-rel-mac/${LATEST}/chrome-mac.zip"
+    url="http://build.chromium.org/f/chromium/snapshots/Mac/${LATEST}/chrome-mac.zip"
     curl -L "${url}" -o ${CHROME_TEMP}/chrome-mac.zip
     if [[ $? -eq 0 ]];then
 		log "GOOD. Update fetch completed sucessfully."
