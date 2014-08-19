@@ -2,10 +2,6 @@
 # chromium_install.sh v1
 # A script to install a downloaded chromium nightly build
 # to Applications directory (OSX).
-# --
-# Copyright (c) 2010 Jeff Bidzos <jbidzos@gatech.edu>
-# All rights reserved.
-
 
 CHROME_DIR="${HOME}/chromium"
 CHROME_TEMP="${CHROME_DIR}/.chromium_update"
