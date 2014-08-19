@@ -1,9 +1,6 @@
 #!/bin/bash
 # chromium_update.sh v1
 # A script to download and unzip the latest chromium nightly (OSX).
-# --
-# Copyright (c) 2010 Jeff Bidzos <jbidzos@gatech.edu>
-# All rights reserved.
 
 CHROME_DIR="${HOME}/chromium"
 CHROME_TEMP="${CHROME_DIR}/.chromium_update"
